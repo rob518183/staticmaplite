@@ -30,7 +30,6 @@ ini_set('display_errors', 'off');
 
 Class staticMapLite
 {
-
     protected $maxWidth = 1024;
     protected $maxHeight = 1024;
 
@@ -74,7 +73,6 @@ Class staticMapLite
             'offsetShadow' => false
         )
     );
-
 
     protected $useTileCache = true;
     protected $tileCacheBaseDir = '../cache/tiles';
@@ -283,7 +281,6 @@ Class staticMapLite
 
         };
     }
-
 
     public function tileUrlToFilename($url)
     {
